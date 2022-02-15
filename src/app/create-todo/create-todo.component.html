@@ -1,0 +1,12 @@
+<div class="col-mmd-6 offset-md-3"></div>
+<h3>Add Todo</h3>
+<form (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+        <label>Add Todo</label>
+        <input type="text" class="form-control" id="todo" [(ngModel)]="todo.todoName" name="todo">
+    </div>
+
+    <button class="btn btn-success" type="submit">Submit</button>
+
+</form>
